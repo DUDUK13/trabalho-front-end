@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightslategray;
+}
+
+.integrantes {
+    text-align: center;
+}
+
+.img-integrantes {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding-top: 25px;
+}
+
+h4, h3 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #000;
+}
+
+a {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.tabela {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: transparent;
+}
+
+.tabela table {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.projeto {
+    text-align: center;
+}
+
+.projeto a {
+    color: black;
+}
+
+.img-logos {
+    width: 60px;
+    height: 70px;
+    padding-right: 15px;
+}
+
+.rodape {
+    background-color: sienna;
+    text-align: center;
+}
+
+.botao-projeto {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.botao-integrantes {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
